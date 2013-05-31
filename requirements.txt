@@ -4,3 +4,4 @@ django_debug_toolbar
 raven
 South
 django-secure
+django-axes==1.3.2

@@ -83,6 +83,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'axes.middleware.FailedLoginMiddleware',
 ]
 
 TEMPLATE_CONTEXT_PROCESSORS = [
@@ -115,6 +116,7 @@ INSTALLED_APPS = [
     'raven.contrib.django.raven_compat',
     'south',
     'djangosecure',
+    'axes',
 ]
 
 # django-secure
